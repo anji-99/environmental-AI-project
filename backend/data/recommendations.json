@@ -1,0 +1,62 @@
+[
+  {
+    "id": "REC001",
+    "action": "Introduce a drought-compatible legume cover crop or intercrop while retaining the main crop.",
+    "why": "Legumes can add biologically fixed nitrogen to the production system, while additional living cover can increase plant functional diversity and protect soil. In a low-rainfall system, species selection and water competition must be evaluated locally.",
+    "metrics": ["soil organic inputs", "soil cover", "plant functional diversity", "soil moisture risk", "habitat diversity"],
+    "time_horizon": "Short term: one growing season for establishment; medium term: repeated seasons for soil and habitat effects.",
+    "confidence": "Medium",
+    "evidence_summary": "FAO material on biodiversity for food and agriculture and USDA NRCS guidance on cover crops support diverse cover and conservation practices, with outcomes dependent on local conditions.",
+    "keywords": ["legume", "cover crop", "intercrop", "soil", "biodiversity"],
+    "triggers": ["very_low_soil_carbon", "low_rainfall", "monoculture", "low_habitat_diversity"],
+    "evidence": ["KB003", "KB008"]
+  },
+  {
+    "id": "REC002",
+    "action": "Establish native, low-water field margins or habitat strips using locally appropriate species.",
+    "why": "A structurally different vegetation strip can increase habitat heterogeneity and provide resources for organisms while reducing the amount of the farm landscape occupied by a single crop. Native species should be selected for local climate, soil and water constraints.",
+    "metrics": ["habitat diversity", "species richness", "vegetation cover", "landscape connectivity"],
+    "time_horizon": "Short term: establishment; medium term: 2–5 years for habitat development; long term: continued management.",
+    "confidence": "Medium",
+    "evidence_summary": "FAO and biodiversity indicator frameworks support measuring species and habitat diversity; connectivity literature supports maintaining habitat links across landscapes.",
+    "keywords": ["habitat", "native", "vegetation", "biodiversity", "connectivity"],
+    "triggers": ["monoculture", "low_habitat_diversity", "deforestation"],
+    "evidence": ["KB003", "KB006", "KB009"]
+  },
+  {
+    "id": "REC003",
+    "action": "Use strategically placed agroforestry elements rather than blanket tree planting, with drought-compatible native or locally suitable perennial species.",
+    "why": "Agroforestry can add vertical and seasonal habitat structure and organic inputs. In water-limited landscapes, placement and species selection matter because trees can also compete for water; therefore the intervention should be designed around rainfall, soil depth and farm objectives.",
+    "metrics": ["habitat structure", "species richness", "soil organic inputs", "microclimate", "landscape connectivity"],
+    "time_horizon": "Medium term: 2–5 years for establishment; long term: 5+ years for mature structural effects.",
+    "confidence": "Medium",
+    "evidence_summary": "FAO agroforestry resources describe integrating trees with crops/livestock and associated ecological functions; IPCC identifies climate exposure and land-use interactions as important to ecosystem vulnerability.",
+    "keywords": ["agroforestry", "trees", "habitat", "climate", "soil"],
+    "triggers": ["low_rainfall", "monoculture", "low_habitat_diversity", "very_low_soil_carbon"],
+    "evidence": ["KB007", "KB004"]
+  },
+  {
+    "id": "REC004",
+    "action": "Increase soil-cover and organic-input management, such as residue retention and locally suitable cover crops.",
+    "why": "Maintaining soil cover and organic inputs can reduce erosion exposure and support soil organic matter. This is particularly relevant when soil carbon is very low, but management should account for pests, disease, water competition and local farming practice.",
+    "metrics": ["soil organic carbon", "soil cover", "erosion risk", "soil water function"],
+    "time_horizon": "Short term: one season for cover; medium term: multiple seasons for measurable soil changes.",
+    "confidence": "Medium",
+    "evidence_summary": "FAO soil resources and USDA NRCS cover-crop guidance support soil-cover and organic-input approaches for soil conservation and health.",
+    "keywords": ["soil organic carbon", "cover crop", "residue", "erosion", "soil"],
+    "triggers": ["very_low_soil_carbon", "low_soil_moisture"],
+    "evidence": ["KB001", "KB008"]
+  },
+  {
+    "id": "REC005",
+    "action": "Create or restore habitat connections between existing natural patches.",
+    "why": "Connecting suitable habitat can improve landscape connectivity and facilitate movement between patches. The exact design should follow the species and habitat types present in the area.",
+    "metrics": ["habitat connectivity", "species movement", "habitat diversity", "species richness"],
+    "time_horizon": "Medium to long term: 2–10+ years depending on vegetation establishment and landscape context.",
+    "confidence": "Medium",
+    "evidence_summary": "IUCN resources describe ecological connectivity as a factor supporting movement and ecological processes across landscapes.",
+    "keywords": ["connectivity", "fragmentation", "habitat", "species"],
+    "triggers": ["deforestation", "low_habitat_diversity"],
+    "evidence": ["KB009"]
+  }
+]
